@@ -20,7 +20,7 @@
                 Click="Button_Click2"/>
         <Button Name ="Button3" Content="New contact"
                 Click="Button_Click2"/>
-        <Button Margin="4,0">Aloha</Button>
+        <Button Margin="400,0,100,200">Aloha</Button>
         <Button Background="Blue"/>
     </Grid> 
 </Window>

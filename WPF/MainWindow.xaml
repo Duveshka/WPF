@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
-    </Grid>
+        <!--<Button Content="New contact"
+                Click="Button_Click"/>-->
+        <TextBlock Name="Block" Text="{Binding Phone}"></TextBlock>
+        <!--<TextBlock Text ="{StaticResource BlaBla}"></TextBlock>-->
+        <Label Name="dataGrid"
+               x:FieldModifier="private"></Label>
+        <TextBlock></TextBlock>
+        <Button Name ="Button1" Content="New contact"
+                Click="Button_Click1"/>
+        <Button Name ="Button2" Content="New contact"
+                Click="Button_Click2"/>
+        <Button Name ="Button3" Content="New contact"
+                Click="Button_Click2"/>
+        <Button Margin="4,0">Aloha</Button>
+        <Button Background="Blue"/>
+    </Grid> 
 </Window>

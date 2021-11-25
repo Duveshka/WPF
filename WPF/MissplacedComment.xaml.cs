@@ -10,29 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MissplacedComment.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MissplacedComment : Window
     {
-        public MainWindow()
+        public MissplacedComment()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click1(object sender, RoutedEventArgs e)
-        {
-            Button1.Width = 200;
-        }
-
-        private void Button_Click2(object sender, RoutedEventArgs e)
-        {
-            Button2.Width = 200;
         }
     }
 }

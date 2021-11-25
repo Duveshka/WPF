@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Button.Width" Value="75"/>
+        </Style>
     </Application.Resources>
 </Application>
